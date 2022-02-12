@@ -4,9 +4,11 @@ This is my rice for river, a tiling wayland compositor. In able to have it worki
 'wlr-randr'
 'wl-roots'
 'JetBrains Mono Font'
-'Iosevka Nerd FOnt'
+'Iosevka Nerd Font'
 'fontawesome'
 
+The rest of my configuration files, for example the swaylock rice, foot terminal rice, etc.. can be found in my sway rice repository:
+https://github.com/johnk1917/johndotfiles
 
 ![river1](https://user-images.githubusercontent.com/96326315/153713031-7721c898-0d1c-4866-9b17-7d8e50276a9c.png)
 ![river2](https://user-images.githubusercontent.com/96326315/153713033-849d7c11-bd2b-4c7a-be14-32ee8b61b38c.png)
