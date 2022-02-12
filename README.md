@@ -1,11 +1,16 @@
 This is my rice for river, a tiling wayland compositor. In able to have it working properly, you'll need the following packages:
 
-'swaylock-effects'
-'wlr-randr'
-'wl-roots'
-'JetBrains Mono Font'
-'Iosevka Nerd Font'
-'fontawesome'
+swaylock-effects
+
+wlr-randr
+
+wl-roots
+
+JetBrains Mono Font
+
+Iosevka Nerd Font
+
+fontawesome
 
 The rest of my configuration files, for example the swaylock rice, foot terminal rice, etc.. can be found in my sway rice repository:
 https://github.com/johnk1917/johndotfiles
