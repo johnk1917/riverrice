@@ -1,0 +1,12 @@
+#!/bin/bash
+
+book_directory="$HOME/Documents/Books/"
+selected=$(ls /home/john1917/Documents/Books | grep -E "*pdf$" | dmenu -l 10 -bw 2 -p "Open PDF:" -c)
+
+if [ $? != 0 ]
+then
+    exit
+fi
+
+zathura ${book_directory}"${selected}"
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+latex_directory="/home/john1917/LaTeX/"
+selected=$(ls ${latex_directory} | grep -E "*tex$" | bemenu -i -l 10 -p "Open TEX File:" \
+    --fn 'Iosevka Nerd Font 16px' \
+    --nb '#16161e[FF]' --nf '#abb2bf[FF]' \
+    --tb '#7aa2f7[FF]' --tf '#16161e[FF]' \
+    --fb '#16161e[FF]' --ff '#abb2bf[FF]' \
+    --hb '#7aa2f7[FF]' --hf '#16161e[FF]' \
+    --sb '#16161e[FF]' --sf '#7aa2f7[FF]' \
+)
+
+if [ $? != 0 ]
+then
+    exit
+fi
+
+footclient -e nvim ${latex_directory}"${selected}"
+
